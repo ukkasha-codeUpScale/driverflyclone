@@ -2,26 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.herosec{
+  background: linear-gradient(to bottom, rgba(8, 178, 184, 0.473) 0%, rgba(184, 87, 8, 0.39) 100%), url(../../public/img/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50rem;
+  color: white;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.demosec{
+  background: linear-gradient( rgba(8, 178, 184, 0.342) 0%, rgba(8, 178, 184, 0.466) 100%),url(/img/motor-carrier.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30rem;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.demoChild1{
+  background: linear-gradient(to bottom, rgba(0, 78, 99, 0.900) 30%, rgba(21, 196, 202, 0.253)90%), url(/img/black-man-truck-driver-near-his-truck-parked-in-a-FD6XPWU.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.demoChild2{
+  background: linear-gradient(to bottom, rgb(11, 90, 114) 40%, rgb(21, 196, 202) 100%)
+
+}
+.iconHowitwork{
+  font-size: 50px;
 }
